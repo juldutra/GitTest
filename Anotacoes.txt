@@ -23,3 +23,18 @@ git status
 Adicionando arquivos para a stage area
 git add arquivo
 
+Diff entre working directory, stage area and 
+git diff
+git diff --staged or git diff -cached
+
+Commit
+git commit -m ""
+
+Removendo arquivo da area de stage
+git checkout --<fileName>
+
+Removendo arquivo do vcs e do disco
+git rm <file>
+
+Removendo o arquivo do vcs e mantendo no disco
+git rm --cached <file>
