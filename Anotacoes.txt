@@ -1,0 +1,25 @@
+Configuração do sistema
+git config --global user.name 
+git config --global user.email
+
+Lista de configurações
+git config --list
+
+Valor original
+git config --show-origin
+
+Help
+git help config
+
+Iniciando um repositório
+git init
+
+Clonando um repositório
+git clone url project_name
+
+Checando status
+git status
+
+Adicionando arquivos para a stage area
+git add arquivo
+
