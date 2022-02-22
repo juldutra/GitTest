@@ -1,4 +1,4 @@
-Configuração do sistema
+Configuração do sistema (system, global, local)
 git config --global user.name 
 git config --global user.email
 
@@ -31,10 +31,34 @@ Commit
 git commit -m ""
 
 Removendo arquivo da area de stage
+git reset HEAD<file>
+git restore --staged <file>
+
+Restaurando arquivo do vcs
 git checkout --<fileName>
+git restore <file>
 
 Removendo arquivo do vcs e do disco
 git rm <file>
 
 Removendo o arquivo do vcs e mantendo no disco
 git rm --cached <file>
+
+Checando os repositorios remotos
+git remote
+git remote -v
+
+Adicionando um repositorio remoto
+git remote add <nome> <url>
+
+Renomeando um repositorio
+git remote rename <nome antigo> <nome novo>
+
+Removendo um repositorio remoto
+git remote remove <nome do repositorio>
+
+git sincronizando o repositorio remoto com o local
+git fetch <remote>
+
+Push
+git push origin master
