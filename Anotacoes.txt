@@ -15,13 +15,13 @@ Iniciando um repositório
 git init
 
 Clonando um repositório
-git clone url project_name
+git clone <url> <project_name>
 
 Checando status
 git status
 
 Adicionando arquivos para a stage area
-git add arquivo
+git add <file>
 
 Diff entre working directory, stage area and 
 git diff
@@ -62,3 +62,4 @@ git fetch <remote>
 
 Push
 git push origin master
+
