@@ -63,3 +63,11 @@ git fetch <remote>
 Push
 git push origin master
 
+<<<<<<< Updated upstream
+=======
+Chapter Git Branching
+
+git branch - lista os branches. O asterisco indica o branch corrente.
+
+git log - gera um relatorio dos commits no branch corrente. --oneline mostra uma linha por commit. --all gera relatório para todos os branches
+>>>>>>> Stashed changes
