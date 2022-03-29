@@ -63,11 +63,28 @@ git fetch <remote>
 Push
 git push origin master
 
-<<<<<<< Updated upstream
-=======
 Chapter Git Branching
 
 git branch - lista os branches. O asterisco indica o branch corrente.
 
+git branch <branchName> cria um novo branch
+
+git branch -d <branch> - deleta um branch
+
+git branch -v - lista os branchs e a mensagem do último comitt em cada um deles.
+
+git branch --merged e git branch --no-merged listam respectivamente os branches que foram e não foram feitos merge com o corrente branch
+
+git checkout <branchName> muda o HEAD para o branch apontado.
+
+git checkout -b <branchName> cria um novo branch e aponta para ele.
+
+git switch é equivalente ou git checkout
+
+git switch -c é equivalent ou git checkout -b
+
+git switch - alterna para a branch anterior.
+
 git log - gera um relatorio dos commits no branch corrente. --oneline mostra uma linha por commit. --all gera relatório para todos os branches
->>>>>>> Stashed changes
+
+git ls-remote <remote> ou git remote show <remote> lista a branches em repositórios remotos.
